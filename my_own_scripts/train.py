@@ -52,7 +52,7 @@ saver = tf.train.Saver()
 tf.gfile.MakeDirs(checkpoint_dir)
 
 with tf.Session() as sess:
-    tf.train.write_graph(sess.graph_def, checkpoint_dir, "graph.rb", False)
+    tf.train.write_graph(sess.graph_def, checkpoint_dir, "graph.pb", False)
 
     sess.run(init)
 
