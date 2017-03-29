@@ -8,3 +8,4 @@
 pyvenv.cfg
 pip-selfcheck.json
 /tmp
+/my_own_scripts/MNIST_data
